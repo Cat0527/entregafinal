@@ -1,0 +1,33 @@
+.maini{
+    .h2i{
+        text-align: start;
+        margin: 1.5em auto;
+        color: #8FAFD9;
+        font-weight: 700;
+        padding-bottom: 1em;
+    }
+    .imagenes-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        flex-direction: row;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+        .imgi{
+            max-width: auto;
+            min-width: 100%;
+            height: auto;
+            opacity: 0.4;
+            transition: opacity 0.3s;
+            
+        }
+        .imgi:hover{
+            opacity: 1;
+            border: black;
+            border-radius: 10px;
+            border: double #AB63BF 3px;
+        }
+        
+}
+

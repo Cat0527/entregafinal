@@ -1,18 +1,72 @@
-/* Error: Undefined variable.
- *   ,
- * 7 |     background-color: $rosado;
- *   |                       ^^^^^^^
- *   '
- *   scss\_body.scss 7:23  @import
- *   scss\estilo.scss 1:8  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 7 \2502      background-color: $rosado;\d\a   \2502                        ^^^^^^^\a   \2575 \a   scss\\_body.scss 7:23  @import\a   scss\\estilo.scss 1:8  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #CEDEF2;
+  padding: 15px;
+}
+
+header .logo {
+  width: 80px;
+  height: auto;
+  padding-right: 15px;
+}
+header .navbar-toggler:focus {
+  box-shadow: none;
+}
+header .navnueva {
+  background-color: #8FAFD9;
+}
+header .navnueva .nav-item {
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+header .navnueva .nav-item .nav-item a:hover {
+  color: white;
+}
+header .navnueva .nav-item .nav-link:hover {
+  background-color: #C991D9;
+  border-radius: 15px;
+}
+header .navnueva .btn-outline-success {
+  color: rgb(0, 0, 0);
+  border-color: #AB63BF;
+}
+header .navnueva .btn:hover {
+  background-color: #AB63BF;
+}
+
+.maini .h2i {
+  text-align: start;
+  margin: 1.5em auto;
+  color: #8FAFD9;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+.maini .imagenes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+.maini .imgi {
+  max-width: auto;
+  min-width: 100%;
+  height: auto;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+.maini .imgi:hover {
+  opacity: 1;
+  border: black;
+  border-radius: 10px;
+  border: double #AB63BF 3px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
