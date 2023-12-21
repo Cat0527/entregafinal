@@ -1,0 +1,35 @@
+footer{
+    background-color: #8FAFD9;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    .container-foo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        
+        .img-redes{
+            width: 40px;
+            height: auto;
+            margin: 10px;
+            padding: 10px auto;
+            
+        }
+    }
+    .containertext{
+        text-align: start;
+        .derechos{
+            font-size: 1rem;
+            font-weight: 400;
+            color: white;
+            padding: 15px;
+            
+        }
+    }
+    
+    
+}

@@ -1,0 +1,40 @@
+.h2p{
+    text-align: start;
+    margin: 1.5em auto;
+    color: #4b84cf;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+.containerp{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    flex-direction: row;
+    gap: 30px;
+}
+    .imgp{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .imgpp{
+        width: 100%;
+        height: auto;
+        opacity: 0.4;
+        transition: opacity 0.3s;
+        
+    }
+    .imgpp:hover{
+        opacity: 1;
+        border: black;
+        border-radius: 10px;
+        border: double #AB63BF 3px;
+    }
+    .h3p{
+        text-align: center;
+        color: #4b84cf;
+        font-weight: 700;
+        gap: 10px;
+    }
+.containerpp{
+    padding-bottom: 20px;
+}
