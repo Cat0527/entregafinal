@@ -8,24 +8,24 @@ header{
         box-shadow: none;
     }
     .navnueva{
-        background-color: #8FAFD9;
+        background-color: $celepastel2;
         .nav-item{
             font-size: 1.1rem;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: 600;
             .nav-item a:hover {
-                color: white
+                color: $blanco;
             }
             .nav-link:hover{
-                background-color: #C991D9;
+                background-color: $rosapastel;
                 border-radius: 15px;
             }
         }
         .btn-outline-success {
             color: rgb(0, 0, 0);
-            border-color: #AB63BF; 
+            border-color: $moradopastel; 
         }.btn:hover{
-            background-color: #AB63BF;
+            background-color: $moradopastel;
         }
     }
 }

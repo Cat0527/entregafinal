@@ -1,11 +1,11 @@
+.h2s{
+    text-align: start;
+    margin: 1.5em auto;
+    color: $celepasto3;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
 .asides {
-    .h2s{
-        text-align: start;
-        margin: 1.5em auto;
-        color: #4b84cf;
-        font-weight: 700;
-        padding-bottom: 1em;
-    }
     .container-imgsaside{
             display: grid; 
             grid-auto-columns: 1fr; 
@@ -13,7 +13,6 @@
             grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
             flex-direction: row;
             gap: 30px; 
-            
     }
     
     .imgaside{
@@ -24,8 +23,8 @@
     }
     .imgaside:hover{
         border-radius: 10px;
-        border: #AB63BF;
-        border: double #4b84cf 3px;
+        border: $moradopastel;
+        border: double $celepasto3 3px;
         opacity: 1;
     }
     
@@ -45,7 +44,7 @@
 .h2se{
     text-align: start;
     margin: 1.5em auto;
-    color: #4b84cf;
+    color: $celepasto3;
     font-weight: 700;
     padding-bottom: 1em;
 }
@@ -70,11 +69,11 @@
             opacity: 1;
             border: black;
             border-radius: 10px;
-            border: double #AB63BF 3px;
+            border: double $moradopastel 3px;
         }
         .h3subs{
             text-align: center;
-            color: #4b84cf;
+            color: $celepasto3;
             font-weight: 700;
             gap: 20px;
         }

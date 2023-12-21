@@ -1,37 +1,37 @@
 .h2c{
     text-align: start;
     margin: 1.5em auto;
-    color: #4b84cf;
+    color: $celepasto3;
     font-weight: 700;
     padding-bottom: 1em;
 }
 .formc {
     padding-bottom: 30px;
     .formuc {
-        max-width: 600px; // Establecer un ancho máximo para el formulario
-        margin: auto; // Centrar el formulario
-        border: #8FAFD9 solid 2px;
+        max-width: 600px;
+        margin: auto;
+        border: $celepastel2 solid 2px;
         border-radius: 5px;
         
     }
   
     .form-label {
-      font-weight: bold; // Hacer que las etiquetas de formulario sean más visibles
-      color: #4b84cf;
+      font-weight: bold;
+      color: $celepasto3;
     }
   
     .mb-3 {
-      margin-bottom: 1.5rem; // Ajustar el espacio entre los elementos del formulario
+      margin-bottom: 1.5rem;
     }
   
     .btn-primary {
-      width: 100%; // Hacer que el botón abarque el ancho completo del formulario
+      width: 100%;
     }
   
     @media (max-width: 767px) {
       .formuc {
-        max-width: 100%; // Hacer que el formulario ocupe el ancho completo en pantallas pequeñas
-        padding: 1rem; // Agregar un poco de espacio alrededor del formulario
+        max-width: 100%;
+        padding: 1rem; 
       }
     }
   }

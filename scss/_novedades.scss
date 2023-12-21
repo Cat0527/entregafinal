@@ -1,7 +1,7 @@
 .h2n{
     text-align: start;
     margin: 1.5em auto;
-    color: #4b84cf;
+    color: $celepasto3;
     font-weight: 700;
     padding-bottom: 1em;
 }
@@ -27,11 +27,11 @@
         opacity: 1;
         border: black;
         border-radius: 10px;
-        border: double #AB63BF 3px;
+        border: double $moradopastel 3px;
     }
     .h3n{
         text-align: center;
-        color: #4b84cf;
+        color: $celepasto3;
         font-weight: 700;
         gap: 10px;
     }

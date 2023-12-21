@@ -26,7 +26,7 @@ header .navnueva .nav-item {
   font-weight: 600;
 }
 header .navnueva .nav-item .nav-item a:hover {
-  color: white;
+  color: #FFFFFF;
 }
 header .navnueva .nav-item .nav-link:hover {
   background-color: #C991D9;
@@ -120,17 +120,18 @@ footer .containertext {
 footer .containertext .derechos {
   font-size: 1rem;
   font-weight: 400;
-  color: white;
+  color: #FFFFFF;
   padding: 15px;
 }
 
-.asides .h2s {
+.h2s {
   text-align: start;
   margin: 1.5em auto;
   color: #4b84cf;
   font-weight: 700;
   padding-bottom: 1em;
 }
+
 .asides .container-imgsaside {
   display: grid;
   grid-auto-columns: 1fr;
@@ -332,6 +333,36 @@ footer .containertext .derechos {
     max-width: 100%;
     padding: 1rem;
   }
+}
+
+.gradient {
+  padding-top: 30px;
+}
+.gradient .linea {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.gradient .sepacion {
+  background: linear-gradient(#4b84cf, #8FAFD9, #CEDEF2, #8FAFD9, #4b84cf);
+  height: 30px;
+  width: 100%;
+}
+
+.elemento:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.imgs {
+  transform: scale(1, 1);
+}
+
+.imgp {
+  transform: scale(1, 1);
+}
+
+.imgn {
+  transform: scale(1, 1);
 }
 
 /*# sourceMappingURL=estilo.css.map */

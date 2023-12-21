@@ -1,0 +1,25 @@
+.gradient{
+    padding-top: 30px;
+    .linea{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+    .sepacion{
+        background: linear-gradient(#4b84cf, #8FAFD9, #CEDEF2, #8FAFD9,#4b84cf);
+        height: 30px;
+        width: 100%;
+    }
+}
+.elemento:hover{
+    transform: scale(1.1, 1.1);
+}
+.imgs{
+    transform: scale(1, 1);
+}
+.imgp{
+    transform: scale(1, 1);
+}
+.imgn{
+    transform: scale(1, 1);
+}
